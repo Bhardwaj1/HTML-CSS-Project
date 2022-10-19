@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(110, 232, 157) ;
+    display: flex;
+    justify-content: center;
+}
+/* label{
+     margin-bottom: 21px;
+} */
+
+.form-container{
+    background-color: white;
+    margin: 30vh;
+    padding:20px 10px 0px 10px;
+    box-shadow: 2px 4px 40px 10px #575656;
+   
+    
+}
+.name,.email,.age{
+    padding: 2px;
+}
+.input{
+    width: 100%;
+    padding: 2px;
+}
+.input-field{
+    margin-bottom: 3px;
+}
+.submit{
+    /* justify-content: center; */
+    text-align: center;
+    
+}
+button{
+    width: 100%;
+    background-color: rgb(110, 232, 157);
+    margin: 40px 0px;
+    border: none;
+    padding: 5px;
+    font-size: large;
+}
+.name,.email,.age,.profession,.refer,.languages,.review{
+    margin-top: 10px;
+}
+#dropdown{
+    width: 90%;
+    
+}
